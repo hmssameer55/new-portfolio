@@ -55,8 +55,8 @@ export const COMPANIES = [
     location: "Remote",
     title: "Senior Software Developer",
     logoUrl: "/km1.png",
-    start: "Jan 2023",
-    end: "Jan 2024",
+    start: "Feb 2024",
+    end: "Present",
     description:
       "Developed a high-performance, multilingual e-commerce platform for Kalyani Motors using Next.js with full server-side rendering (SSR) to optimize speed and SEO. Implemented internationalization (i18n) for delivering localized user experiences in multiple languages. Built a fully responsive and mobile-friendly interface with Tailwind CSS and ensured UI consistency using ShadCN components. Integrated Framer Motion to enhance user engagement with interactive animations. Engineered a secure payment gateway supporting UPI, cards, net banking, and intent-based payments, leveraging SSR for robust data security. Designed and deployed dynamic product pages with seamless payment gateway integration.",
   },
@@ -67,7 +67,7 @@ export const COMPANIES = [
     location: "Remote",
     title: "Full Stack Developer",
     logoUrl: "/odin1.avif",
-    start: "Jan 2023",
+    start: "Dec 2022",
     end: "Jan 2024",
     description:
       "Built a highly customizable chatbot solution for Odin AI, enabling effortless integration into external websites via a simple script tag. Enhanced user experience by developing features for customizing chatbot behavior directly through the Odin platform. Led the design and implementation of the Knowledge Base, allowing users to upload documents and resources to enrich AI responses. Played a key role in developing the chat and Agent functionalities, including the ability for users to configure agents with predefined rules and personalities for tailored interactions. Collaborated closely with the team through pair programming, driving feature development and ensuring the delivery of a robust, user-centric application.",
@@ -80,7 +80,7 @@ export const COMPANIES = [
     title: "Junior Full Stack Developer",
     logoUrl: "/codeglo.jpg",
     start: "April 2022",
-    end: "Jan 2023",
+    end: "Jan 2024",
     description:
       "Spearheaded a variety of web development projects, including WordPress and Shopify customization, optimizing websites for enhanced user experiences. Worked on major initiatives in Next.js, React, and Firebase, crafting dynamic, real-time web applications for peak performance. Collaborated cross-functionally to seamlessly integrate web solutions, consistently meeting project objectives and deadlines. Ensured the highest code quality and robustness through meticulous troubleshooting, debugging, and adherence to best practices.",
   },
@@ -264,7 +264,6 @@ export const PROFESSSIONAL_PROJECTS = [
       "I successfully led the development of kalyanimotors.com, utilizing Next.js with full SSR (Server-Side Rendering) for optimal performance and security. The project incorporated internationalization (i18n) to provide localized experiences in multiple languages. We made full use of Tailwind CSS, ensuring the website was fully responsive and mobile-friendly, while ShadCN was leveraged for reusable components, enhancing UI consistency. Framer Motion was used to implement smooth animations, creating an engaging user experience.",
     image:
       "/project-logos/km.png",
-    mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
     link: 'http://kalyani-next-web-app.vercel.app',
   },
   {
@@ -275,7 +274,6 @@ export const PROFESSSIONAL_PROJECTS = [
       "I spearheaded the development of the Kalyani Motors payment gateway, enabling secure payments through UPI, cards, net banking (NB), and intent-based payments. Ensured complete security of sensitive payment details through Next.js' SSR, safeguarding the transaction flow and enhancing user trust. This project also included launching product pages and ensuring seamless integration of payment requests with robust security standards.",
     image:
       "/project-logos/km-new.jpg",
-    mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
   },
   {
     title: "Odin AI",
@@ -293,7 +291,7 @@ export const PROFESSSIONAL_PROJECTS = [
     dates: "April 2022 - Sep 2022",
     company: "CodeGlo",
     description:
-      "Developed a web application which aggregates social media data regarding cryptocurrencies and predicts future prices.",
+      "As a frontend developer, I contributed to the Conscious Planet project, focusing on enhancing user experience and global reach. My responsibilities included resolving UI bugs, optimizing the website for various screen sizes, integrating interactive maps, implementing internationalization features, and leveraging SSR and SSG techniques to improve performance and SEO.",
     image:
       "/project-logos/save-soil.webp",
     link: 'https://consciousplanet.org/en/save-soil'
@@ -307,7 +305,6 @@ export const PROFESSSIONAL_PROJECTS = [
     image:
       "/project-logos/marah.jpg",
     win: "Best Data Hack",
-    mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2018/white.svg",
     link: 'https://marahnatural.com/'
   },
   {
@@ -328,7 +325,6 @@ export const PROFESSSIONAL_PROJECTS = [
       "In my role as a frontend developer, I customized the Shopify theme to reflect Boka's unique brand identity and messaging. I fine-tuned the CSS to improve the overall design and user interface. Furthermore, I adjusted the content and layout to enhance the shopping experience and drive conversions.",
     image:
       "/project-logos/boka.jpg",
-    mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg",
     link: 'https://www.boka.com/'
   },
 

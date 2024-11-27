@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
   },
   verification: {
-    google: "",
+    google: "vwwi-S90LUr3rJXImFB3oOJ_fn1tM5XoGNU8kXZ5kgI",
     yandex: "",
   },
 };

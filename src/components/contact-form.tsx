@@ -39,7 +39,11 @@ export default function ContactForm() {
 
     async function onSubmit(values: z.infer<typeof formSchema>) {
         try {
+            const mailtoUrl = `mailto:hmssameer55@gmail.com?subject=${encodeURIComponent(values.subject)}&body=${encodeURIComponent(
+                `Name: ${values.name}\nEmail: ${values.email}\n\nMessage:\n${values.message}`
+            )}`;
 
+            window.location.href = mailtoUrl;
             toast({
                 title: "Message sent!",
                 description: "We'll get back to you as soon as possible.",
@@ -55,7 +59,7 @@ export default function ContactForm() {
     }
 
     return (
-        <div className="w-full min-h-screen bg-white dark:bg-gray-900 flex flex-col items-center justify-center p-4">
+        <div className="w-full min-h-screen  flex flex-col items-center justify-center p-4">
             <div className="w-full max-w-3xl text-center mb-12">
                 <div className="inline-block bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-100 rounded-full px-4 py-1 text-sm mb-4">
                     Contact

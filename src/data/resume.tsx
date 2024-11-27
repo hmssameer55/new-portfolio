@@ -10,11 +10,11 @@ export const DATA = {
     "I create Web Apps, Native apps and engaging user interfaces",
   summary:
     "Im a passionate developer specializing in Next.js and React, with a knack for creating seamless, scalable web applications. Whether its dynamic visuals with Three.js or building mobile solutions with React Native, I turn your ideas into reality. Lets collaborate and make something extraordinary.",
-  avatarUrl: "/me.png",
+  avatarUrl: "/me.webp",
   skills: [
     "React.js",
     "Next.js",
-    "React Natie",
+    "React Native",
     "Javascript",
     "Typescript",
     "Python",
@@ -151,12 +151,12 @@ export const PERSONAL_PROJECTS = [
       {
         type: "Website",
         href: "https://hms-dropbox.vercel.app/",
-        icon: <Icons.globe className="size-3" />,
+        icon: <Icons.globe className="size-3.5" />,
       },
       {
         type: "Source",
         href: "https://github.com/hmssameer55/hms-dropbox",
-        icon: <Icons.github className="size-3" />,
+        icon: <Icons.github className="size-3.5" />,
       },
     ],
     image: "",
@@ -182,12 +182,12 @@ export const PERSONAL_PROJECTS = [
       {
         type: "Website",
         href: "https://stack-overflow-hmssameer55s-projects.vercel.app/",
-        icon: <Icons.globe className="size-3" />,
+        icon: <Icons.globe className="size-3.5" />,
       },
       {
         type: "Source",
         href: "https://github.com/hmssameer55/stack-overflow",
-        icon: <Icons.github className="size-3" />,
+        icon: <Icons.github className="size-3.5" />,
       },
     ],
     image: "/devoverflow.jpeg",
@@ -212,12 +212,12 @@ export const PERSONAL_PROJECTS = [
       {
         type: "Website",
         href: "https://ai-photolab.vercel.app/",
-        icon: <Icons.globe className="size-3" />,
+        icon: <Icons.globe className="size-3.5" />,
       },
       {
         type: "Source",
         href: "https://github.com/dillionverma/llm.report",
-        icon: <Icons.github className="size-3" />,
+        icon: <Icons.github className="size-3.5" />,
       },
     ],
     image: "/ai-photolab.jpeg",
@@ -240,12 +240,12 @@ export const PERSONAL_PROJECTS = [
       {
         type: "Website",
         href: "https://prompt-verse-dun.vercel.app/",
-        icon: <Icons.globe className="size-3" />,
+        icon: <Icons.globe className="size-3.5" />,
       },
       {
         type: "Source",
         href: "https://github.com/hmssameer55/prompt-verse",
-        icon: <Icons.github className="size-3" />,
+        icon: <Icons.github className="size-3.5" />,
       },
     ],
     image: "/prompt-verse.jpeg",
@@ -259,122 +259,77 @@ export const PROFESSSIONAL_PROJECTS = [
   {
     title: "Kalyani Motors",
     dates: "April 2024 - Present",
-    location: "Kalyani Motors",
+    company: "Kalyani Motors",
     description:
       "I successfully led the development of kalyanimotors.com, utilizing Next.js with full SSR (Server-Side Rendering) for optimal performance and security. The project incorporated internationalization (i18n) to provide localized experiences in multiple languages. We made full use of Tailwind CSS, ensuring the website was fully responsive and mobile-friendly, while ShadCN was leveraged for reusable components, enhancing UI consistency. Framer Motion was used to implement smooth animations, creating an engaging user experience.",
     image:
-      "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
+      "/project-logos/km.png",
     mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-    links: [],
+    link: 'http://kalyani-next-web-app.vercel.app',
   },
   {
     title: "Kalyani Checkout",
     dates: "July 2024 - Present",
-    location: "Kalyani Motors",
+    company: "Kalyani Motors",
     description:
       "I spearheaded the development of the Kalyani Motors payment gateway, enabling secure payments through UPI, cards, net banking (NB), and intent-based payments. Ensured complete security of sensitive payment details through Next.js' SSR, safeguarding the transaction flow and enhancing user trust. This project also included launching product pages and ensuring seamless integration of payment requests with robust security standards.",
     image:
-      "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-north.png",
+      "/project-logos/km-new.jpg",
     mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-    links: [],
   },
   {
     title: "Odin AI",
-    dates: "",
-    location: "ODIN",
+    dates: "Dec 2022 - Jan 2024",
+    company: "ODIN",
     description:
       "Developed a user-friendly chatbot that can be effortlessly implemented on external websites using a simple script tag, enhancing user customization through the Odin application. Played a pivotal role in building and maintaining the Knowledge base, enabling users to upload diverse resources to enrich responses from AI. Contributed significantly to the chat and Agent features, allowing users to select agents with predefined rules and personalities for tailored responses. Engaged in extensive pair programming throughout the app's development, collaborating with fellow team members to achieve project milestones and enhance overall functionality.",
     icon: "public",
     image:
-      "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/firstnet.png",
-    links: [],
+      "/project-logos/odin.avif",
+    link: 'https://getodin.ai/',
   },
   {
     title: "Conscious Planet",
-    dates: "February 3rd - 4th, 2018",
-    location: "San Francisco, California",
+    dates: "April 2022 - Sep 2022",
+    company: "CodeGlo",
     description:
       "Developed a web application which aggregates social media data regarding cryptocurrencies and predicts future prices.",
     image:
-      "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/developer-week.jpg",
-    links: [
-      {
-        title: "Github",
-        icon: <Icons.github className="h-4 w-4" />,
-        href: "https://github.com/cryptotrends/cryptotrends",
-      },
-    ],
+      "/project-logos/save-soil.webp",
+    link: 'https://consciousplanet.org/en/save-soil'
   },
   {
     title: "Marah Natural",
-    dates: "January 20th - 21st, 2018",
-    location: "Davis, California",
+    dates: "",
+    company: "CodeGlo",
     description:
       "As a frontend developer, I customized the Shopify theme to align with the brand's natural aesthetic. I optimized the website for various screen sizes, ensuring a seamless user experience across devices. Additionally, I implemented responsive design principles to adapt the layout and content to different screen resolutions.",
     image:
-      "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-davis.png",
+      "/project-logos/marah.jpg",
     win: "Best Data Hack",
     mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2018/white.svg",
-    links: [
-      {
-        title: "Devpost",
-        icon: <Icons.globe className="h-4 w-4" />,
-        href: "https://devpost.com/software/my6footprint",
-      },
-      {
-        title: "ML",
-        icon: <Icons.github className="h-4 w-4" />,
-        href: "https://github.com/Wallet6/my6footprint-machine-learning",
-      },
-      {
-        title: "iOS",
-        icon: <Icons.github className="h-4 w-4" />,
-        href: "https://github.com/Wallet6/CarbonWallet",
-      },
-      {
-        title: "Server",
-        icon: <Icons.github className="h-4 w-4" />,
-        href: "https://github.com/Wallet6/wallet6-server",
-      },
-    ],
+    link: 'https://marahnatural.com/'
   },
   {
     title: "Veripure",
-    dates: "October 13th - 15th, 2017",
-    location: "Waterloo, Ontario",
+    dates: "",
+    company: "CodeGlo",
     description:
       "As a frontend developer, I tailored the Veripure Shopify theme to create a professional and trustworthy online presence. I optimized the website's layout and content to highlight key product information and benefits. Additionally, I implemented responsive design techniques to provide a consistent user experience across all devices.",
     image:
-      "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/eth-waterloo.png",
-    links: [
-      {
-        title: "Organization",
-        icon: <Icons.github className="h-4 w-4" />,
-        href: "https://github.com/ethdocnet",
-      },
-    ],
+      "/project-logos/veripure.png",
+    link: 'https://www.veripure.com/'
   },
   {
     title: "Boka",
-    dates: "September 15th - 17th, 2017",
-    location: "Waterloo, Ontario",
+    dates: "",
+    company: "CodeGlo",
     description:
       "In my role as a frontend developer, I customized the Shopify theme to reflect Boka's unique brand identity and messaging. I fine-tuned the CSS to improve the overall design and user interface. Furthermore, I adjusted the content and layout to enhance the shopping experience and drive conversions.",
     image:
-      "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-north.png",
+      "/project-logos/boka.jpg",
     mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg",
-    links: [
-      {
-        title: "Streamer Source",
-        icon: <Icons.github className="h-4 w-4" />,
-        href: "https://github.com/justinmichaud/htn2017",
-      },
-      {
-        title: "Client Source",
-        icon: <Icons.github className="h-4 w-4" />,
-        href: "https://github.com/dillionverma/RTSPClient",
-      },
-    ],
+    link: 'https://www.boka.com/'
   },
 
 

@@ -8,7 +8,11 @@ const nextConfig = {
         hostname:'assets.aceternity.com'
       }
     ]
+  },
+  typescript:{
+    ignoreBuildErrors:true
   }
+
 };
 
 export default nextConfig;

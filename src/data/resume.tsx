@@ -19,6 +19,7 @@ export const DATA = {
     "Typescript",
     "Python",
     "Node.js",
+    "Nest.js",
     "Django",
     "Shopify",
     "Framer",
@@ -26,9 +27,6 @@ export const DATA = {
     "Cypress",
     "Lexical",
   ],
-
-
-
 } as const;
 
 
